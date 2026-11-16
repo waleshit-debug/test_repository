@@ -22,6 +22,7 @@ class Character:
 class Warrior(Character):
     def __init__(self, name, strength: int):
         super().__init__(name)
+        # В родительский класс передается name и выполнияется метод родительского класса __init__
         self.strength = strength
 
     def attack(self):
