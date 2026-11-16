@@ -1,6 +1,0 @@
-mkdir
-ls 
-ls -la / ls -lah
-cd 
-clear
-pwd # print working directory
